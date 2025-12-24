@@ -121,7 +121,6 @@ pipeline {
                 </body>
                 </html>
                 """,
-                mimeType: 'test/html',
                 attachLog: true
             )
         }
