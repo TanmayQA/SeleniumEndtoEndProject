@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven-3.9.12'   // must match Jenkins Global Tool name
+        maven 'maven_lib'   // must match Jenkins Global Tool name
     }
 
     stages {
