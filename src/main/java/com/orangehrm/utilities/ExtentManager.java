@@ -25,24 +25,52 @@ public class ExtentManager {
 
     // Initialize the extent Report
 
+    //    public static ExtentReports getReporter() {
+//
+//        if (extent == null) {
+//            String reportPath = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/ExtentReport.html";
+//            ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
+//            spark.config().setReportName("Automation Test Report");
+//            spark.config().setDocumentTitle("OrangeHRM Report");
+//            spark.config().setTheme(Theme.DARK);
+//            extent = new ExtentReports();
+//            extent.attachReporter(spark);
+//            // add system information
+//
+//            extent.setSystemInfo("Operating System", System.getProperty("os.name"));
+//            extent.setSystemInfo("Java Version", System.getProperty("java.version"));
+//            extent.setSystemInfo("user Name", System.getProperty("user.name"));
+//        }
+//        return extent;
+//    }
     public static ExtentReports getReporter() {
 
         if (extent == null) {
-            String reportPath = System.getProperty("user.dir") + "/src/test/resources/ExtentReport/ExtentReport.html";
+
+            String reportDirPath = System.getProperty("user.dir") + "/target/ExtentReport";
+            File reportDir = new File(reportDirPath);
+            if (!reportDir.exists()) {
+                reportDir.mkdirs();
+            }
+
+            String reportPath = reportDirPath + "/index.html";
+
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
             spark.config().setReportName("Automation Test Report");
             spark.config().setDocumentTitle("OrangeHRM Report");
             spark.config().setTheme(Theme.DARK);
+
             extent = new ExtentReports();
             extent.attachReporter(spark);
-            // add system information
 
             extent.setSystemInfo("Operating System", System.getProperty("os.name"));
             extent.setSystemInfo("Java Version", System.getProperty("java.version"));
-            extent.setSystemInfo("user Name", System.getProperty("user.name"));
+            extent.setSystemInfo("User Name", System.getProperty("user.name"));
         }
+
         return extent;
     }
+
 
     // start the test
 

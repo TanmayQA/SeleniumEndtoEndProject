@@ -15867,3 +15867,12 @@ Sharma
 2025-12-24 12:04:52 [TestNG-test-OrangeHRMtest-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-userdropdown-link
 2025-12-24 12:04:53 [TestNG-test-OrangeHRMtest-3] INFO  Actiondriver - Clicked an element --> Element with classname: oxd-userdropdown-link
 2025-12-24 12:04:53 [TestNG-test-OrangeHRMtest-3] INFO  BaseClass - Webdriver instance is closed.
+2025-12-24 14:32:19 [main] INFO  BaseClass - config.properties file load
+2025-12-24 14:32:20 [main] INFO  BaseClass - Chromedriver Intiliazed
+2025-12-24 14:32:21 [main] INFO  BaseClass - WebDriver Initilized and Browser maximized
+2025-12-24 14:32:21 [main] TRACE BaseClass - This is the fatal message
+2025-12-24 14:32:21 [main] DEBUG BaseClass - This is the debug message
+2025-12-24 14:32:21 [main] WARN  BaseClass - This is the warn message
+2025-12-24 14:32:21 [main] INFO  Actiondriver - Webdriver instance is created
+2025-12-24 14:32:21 [main] INFO  BaseClass - Actiondriver initilized for threadThread[main,5,main]
+2025-12-24 14:32:21 [main] INFO  BaseClass - Webdriver instance is closed.
