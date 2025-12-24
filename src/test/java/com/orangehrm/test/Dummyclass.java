@@ -9,7 +9,7 @@ public class Dummyclass extends BaseClass {
 @Test
     public void test()
     {
-        //Test checkin
+        //Test
         String title = getDriver().getTitle();
         assert title.equals("OrangeHRM"):"Test Failed - Title is not matching";
         System.out.println("Test Passed");
