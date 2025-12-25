@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="OrangeHRMSuites" parallel="classes" thread-count="5">
+<suite name="OrangeHRMSuites" parallel="tests" thread-count="5">
     <listeners>
         <listener class-name="com.orangehrm.listeners.TestListeners"/>
     </listeners>
-    <test name="OrangeHRMtest">
-        <classes>
-            <class name="com.orangehrm.test.DBVerificationTest"></class>
-            <class name="com.orangehrm.test.ApiTest"></class>
-            <class name="com.orangehrm.test.Dummyclass"></class>
-            <class name="com.orangehrm.test.Dummyclass2"></class>
-            <class name="com.orangehrm.test.HomePageTest"></class>
-            <class name="com.orangehrm.test.LoginPageTest"></class>
-
-        </classes>
-    </test>
+<test name="OrangeHRMTest_edge">
+    <classes>
+        <class name="com.orangehrm.test.ApiTest" />
+    </classes>
+</test>
+<test name="OrangeHRMTest_UI_edge">
+    <parameter name="browser" value="edge" />
+    <classes>
+        <class name="com.orangehrm.test.Dummyclass" />
+        <class name="com.orangehrm.test.Dummyclass2" />
+    </classes>
+</test>
+<test name="OrangeHRMTest_UI_chrome">
+    <parameter name="browser" value="chrome" />
+    <classes>
+        <class name="com.orangehrm.test.DBVerificationTest" />
+        <class name="com.orangehrm.test.LoginPageTest" />
+        <class name="com.orangehrm.test.HomePageTest" />
+    </classes>
+</test>
 </suite>

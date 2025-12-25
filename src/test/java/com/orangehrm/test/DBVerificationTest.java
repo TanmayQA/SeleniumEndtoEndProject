@@ -28,7 +28,7 @@ public class DBVerificationTest extends BaseClass {
     @Test(dataProvider = "employeeverification", dataProviderClass = DataProviders.class)
     public void verifyEmployeeNameFromDB(String empId, String empName) {
 
-        SoftAssert softAssert = getSoftassert();
+        SoftAssert softAssert = getSoftAssert();
 
         ExtentManager.logStep("Login with admin credentials");
         loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
