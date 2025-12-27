@@ -5,7 +5,23 @@ pipeline {
         maven 'maven_lib'   // must match Jenkins Global Tool name
     }
 
+
+        environment {
+                COMPOSE_PATH = "${WORKSPACE}/docker" // Adjust if compose file is elsewhere
+                SELENIUM_GRID = "true"
+            }
+
     stages {
+     stage('Start Selenium Grid via Docker Compose') {
+                steps {
+                    script {
+                        echo "Starting Selenium Grid with Docker Compose..."
+                        bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d"
+                        echo "Waiting for Selenium Grid to be ready..."
+                        sleep 30 // Add a wait if needed
+                    }
+                }
+            }
 
         stage('Checkout') {
             steps {
@@ -16,15 +32,24 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                sh 'mvn clean install -DseleniumGrid=true'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn test'
+                sh 'mvn clean install -DseleniumGrid=true'
             }
         }
+        stage('Stop Selenium Grid') {
+                    steps {
+                        script {
+                            echo "Stopping Selenium Grid..."
+                            bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml down"
+                        }
+                    }
+                }
+
 
         stage('Reports') {
             steps {

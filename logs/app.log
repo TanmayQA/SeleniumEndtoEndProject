@@ -16879,3 +16879,792 @@ Sharma
 2025-12-26 01:10:35 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element unable to describe the element
 2025-12-26 01:10:35 [TestNG-tests-3] INFO  Actiondriver - Element is displayed : unable to describe the element
 2025-12-26 01:10:36 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:06:27 [main] INFO  BaseClass - config.properties file loaded
+2025-12-27 16:11:18 [main] INFO  BaseClass - config.properties file loaded
+2025-12-27 16:23:58 [main] INFO  BaseClass - config.properties file loaded
+2025-12-27 16:23:59 [TestNG-tests-2] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:24:02 [TestNG-tests-2] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:24:02 [TestNG-tests-2] TRACE BaseClass - This is a Trace message
+2025-12-27 16:24:02 [TestNG-tests-2] DEBUG BaseClass - This is a debug message
+2025-12-27 16:24:02 [TestNG-tests-2] WARN  BaseClass - This is a warm message
+2025-12-27 16:24:02 [TestNG-tests-2] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:24:02 [TestNG-tests-2] INFO  BaseClass - ActionDriver initlialized for thread: 22
+2025-12-27 16:24:02 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:24:02 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:24:04 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:24:04 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:24:04 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:24:04 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:24:04 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:24:04 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:24:04 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:24:05 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:24:05 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:24:05 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:24:05 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:24:05 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:24:06 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:24:06 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:24:06 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:24:17 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:24:27 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:24:27 [TestNG-tests-3] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [430d08a2fee4eaf1358b06886483bc36, clearElement {id=f.6FB1702D632F398C361B960B3DCC5342.d.A50F343AC3A8BCB8D2C60C3DA1196535.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (430d08a2fee4eaf1358b06886483bc36)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:24:27 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:24:38 [TestNG-tests-3] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [430d08a2fee4eaf1358b06886483bc36, clickElement {id=f.6FB1702D632F398C361B960B3DCC5342.d.A50F343AC3A8BCB8D2C60C3DA1196535.e.62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (430d08a2fee4eaf1358b06886483bc36)] -> xpath: //button[text()=' Search ']]
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  Actiondriver - Element is visible : Element with text: Id
+002
+First (& Middle) Name
+Yashi
+Last Name
+Dubey
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  DBConnection - Query executed successfully
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  DBConnection - Employee data fetched
+2025-12-27 16:24:48 [TestNG-tests-3] INFO  DBConnection - Yashi,,Dubey
+2025-12-27 16:24:58 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:25:08 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [430d08a2fee4eaf1358b06886483bc36, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:25:18 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:25:28 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [430d08a2fee4eaf1358b06886483bc36, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45261}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 430d08a2fee4eaf1358b06886483bc36
+2025-12-27 16:25:28 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:25:28 [TestNG-tests-2] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:25:31 [TestNG-tests-2] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:25:31 [TestNG-tests-2] TRACE BaseClass - This is a Trace message
+2025-12-27 16:25:31 [TestNG-tests-2] DEBUG BaseClass - This is a debug message
+2025-12-27 16:25:31 [TestNG-tests-2] WARN  BaseClass - This is a warm message
+2025-12-27 16:25:31 [TestNG-tests-2] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:25:31 [TestNG-tests-2] INFO  BaseClass - ActionDriver initlialized for thread: 22
+2025-12-27 16:25:31 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:25:31 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:25:34 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:25:34 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:25:34 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:25:34 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:25:35 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:25:35 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:25:35 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:25:46 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:25:56 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:25:56 [TestNG-tests-3] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c739848f6476238c11133b42f665485, clearElement {id=f.B6E7B19E1A25CB19E32411827C00F161.d.D4AED9E29FEDA7783697E247E2EEAA4E.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (8c739848f6476238c11133b42f665485)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:25:56 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:26:06 [TestNG-tests-3] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c739848f6476238c11133b42f665485, clickElement {id=f.B6E7B19E1A25CB19E32411827C00F161.d.D4AED9E29FEDA7783697E247E2EEAA4E.e.62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (8c739848f6476238c11133b42f665485)] -> xpath: //button[text()=' Search ']]
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  Actiondriver - Element is visible : Element with text: Id
+002
+First (& Middle) Name
+Yashi
+Last Name
+Dubey
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  DBConnection - Query executed successfully
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  DBConnection - Employee data fetched
+2025-12-27 16:26:17 [TestNG-tests-3] INFO  DBConnection - Yashi,,Dubey
+2025-12-27 16:26:27 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:26:37 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c739848f6476238c11133b42f665485, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:26:47 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:26:57 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c739848f6476238c11133b42f665485, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41127}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c739848f6476238c11133b42f665485
+2025-12-27 16:26:57 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:26:57 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:27:00 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:27:00 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:27:00 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:27:00 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:27:01 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:27:01 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:27:02 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:27:12 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:27:22 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:27:22 [TestNG-tests-3] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c28ae681736c860a6c66c7bf9649e36b, clearElement {id=f.94F66433F4B75CADA2AB44ED5B180857.d.A150E0FFBFD1A60D6A847F4DDAAD58B3.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (c28ae681736c860a6c66c7bf9649e36b)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:27:22 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:27:33 [TestNG-tests-3] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c28ae681736c860a6c66c7bf9649e36b, clickElement {id=f.94F66433F4B75CADA2AB44ED5B180857.d.A150E0FFBFD1A60D6A847F4DDAAD58B3.e.63}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (c28ae681736c860a6c66c7bf9649e36b)] -> xpath: //button[text()=' Search ']]
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  Actiondriver - Element is visible : Element with text: Id
+002
+First (& Middle) Name
+Yashi
+Last Name
+Dubey
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  DBConnection - Query executed successfully
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  DBConnection - Employee data fetched
+2025-12-27 16:27:43 [TestNG-tests-3] INFO  DBConnection - Yashi,,Dubey
+2025-12-27 16:27:53 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:28:03 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c28ae681736c860a6c66c7bf9649e36b, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:28:13 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:28:23 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c28ae681736c860a6c66c7bf9649e36b, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44625}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c28ae681736c860a6c66c7bf9649e36b
+2025-12-27 16:28:23 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:28:24 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:28:26 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:28:26 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:28:26 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:28:26 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:28:27 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:28:27 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:28:28 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:28:28 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:28:38 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:28:49 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:28:49 [TestNG-tests-3] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2776260a85b78287f5de7c78b95619d1, clearElement {id=f.1569F41EEAAA59A6E44DC02AB8595672.d.D7F0AD4A8FE055AC88F93DA57F9558D4.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (2776260a85b78287f5de7c78b95619d1)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:28:49 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:28:59 [TestNG-tests-3] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2776260a85b78287f5de7c78b95619d1, clickElement {id=f.1569F41EEAAA59A6E44DC02AB8595672.d.D7F0AD4A8FE055AC88F93DA57F9558D4.e.62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (2776260a85b78287f5de7c78b95619d1)] -> xpath: //button[text()=' Search ']]
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  Actiondriver - Element is visible : Element with text: Id
+003
+First (& Middle) Name
+Kashyap tanmay
+Last N...
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=3
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  DBConnection - Query executed successfully
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  DBConnection - Employee data fetched
+2025-12-27 16:29:09 [TestNG-tests-3] INFO  DBConnection - Kashyap,tanmay,Sharma
+2025-12-27 16:29:19 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:29:29 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2776260a85b78287f5de7c78b95619d1, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:29:39 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:29:49 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [2776260a85b78287f5de7c78b95619d1, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45429}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2776260a85b78287f5de7c78b95619d1
+2025-12-27 16:29:49 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:29:50 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:29:52 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:29:52 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:29:52 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:29:52 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:29:53 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:29:53 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:29:53 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:29:54 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:29:54 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:30:04 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:30:14 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:30:14 [TestNG-tests-3] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b12ac94e7cdae355138428550f8e1dc4, clearElement {id=f.C583ACC446118C8C2C31711A0AD8498B.d.575ECFABD7D38BD00FF803451C8261A8.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (b12ac94e7cdae355138428550f8e1dc4)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:30:15 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:30:25 [TestNG-tests-3] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b12ac94e7cdae355138428550f8e1dc4, clickElement {id=f.C583ACC446118C8C2C31711A0AD8498B.d.575ECFABD7D38BD00FF803451C8261A8.e.62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (b12ac94e7cdae355138428550f8e1dc4)] -> xpath: //button[text()=' Search ']]
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  Actiondriver - Element is visible : Element with text: Id
+003
+First (& Middle) Name
+Kashyap tanmay
+Last N...
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=3
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  DBConnection - Query executed successfully
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  DBConnection - Employee data fetched
+2025-12-27 16:30:35 [TestNG-tests-3] INFO  DBConnection - Kashyap,tanmay,Sharma
+2025-12-27 16:30:45 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:30:55 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b12ac94e7cdae355138428550f8e1dc4, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:31:05 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:31:15 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [b12ac94e7cdae355138428550f8e1dc4, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46293}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b12ac94e7cdae355138428550f8e1dc4
+2025-12-27 16:31:16 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:31:16 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:31:18 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:31:18 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:31:18 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:31:18 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:31:18 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:31:18 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:31:18 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:31:18 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:31:19 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:31:19 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:31:19 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:31:19 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:31:20 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:31:21 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:31:21 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:31:31 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:31:41 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:31:41 [TestNG-tests-3] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [07c42703b543d6a931775e4697c90335, clearElement {id=f.498D55215D56C31F0EAD396AC538FE04.d.5541BF60BAC5FA85215AFB0CF683F621.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (07c42703b543d6a931775e4697c90335)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:31:41 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:31:52 [TestNG-tests-3] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [07c42703b543d6a931775e4697c90335, clickElement {id=f.498D55215D56C31F0EAD396AC538FE04.d.5541BF60BAC5FA85215AFB0CF683F621.e.63}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (07c42703b543d6a931775e4697c90335)] -> xpath: //button[text()=' Search ']]
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  Actiondriver - Element is visible : Element with text: Id
+003
+First (& Middle) Name
+Kashyap tanmay
+Last N...
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=3
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  DBConnection - Query executed successfully
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  DBConnection - Employee data fetched
+2025-12-27 16:32:02 [TestNG-tests-3] INFO  DBConnection - Kashyap,tanmay,Sharma
+2025-12-27 16:32:12 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:32:22 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [07c42703b543d6a931775e4697c90335, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:32:32 [TestNG-tests-3] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:32:42 [TestNG-tests-3] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [07c42703b543d6a931775e4697c90335, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Kashyap')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07c42703b543d6a931775e4697c90335
+2025-12-27 16:32:42 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:32:43 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:32:45 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:32:45 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:32:45 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username admin
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password admin
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:32:45 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:32:46 [TestNG-tests-3] INFO  Actiondriver - Comparing → Expected: 'Invalid credentials' | Actual: 'Invalid credentials'
+2025-12-27 16:32:46 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Invalid credentials
+2025-12-27 16:32:46 [TestNG-tests-3] INFO  Actiondriver - Text matches!
+2025-12-27 16:32:46 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:32:46 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:32:48 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:32:48 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:32:48 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:32:48 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:32:48 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:32:48 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username admin
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password admin1
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Comparing → Expected: 'Invalid credentials' | Actual: 'Invalid credentials'
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Invalid credentials
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  Actiondriver - Text matches!
+2025-12-27 16:32:49 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:32:50 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:32:52 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:32:52 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:32:52 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:32:52 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:32:53 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Admin
+2025-12-27 16:32:53 [TestNG-tests-3] INFO  Actiondriver - Element is displayed : Element with text: Admin
+2025-12-27 16:32:53 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Tanmay Sharma
+2025-12-27 16:32:53 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Tanmay Sharma
+2025-12-27 16:32:53 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Logout
+2025-12-27 16:32:54 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with classname: oxd-userdropdown-link
+2025-12-27 16:32:54 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:32:54 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:32:56 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:32:56 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:32:56 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:32:56 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:32:56 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:32:56 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:32:56 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:32:56 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:32:57 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:32:57 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:32:57 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:32:57 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:32:57 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Admin
+2025-12-27 16:32:57 [TestNG-tests-3] INFO  Actiondriver - Element is displayed : Element with text: Admin
+2025-12-27 16:32:58 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Tanmay Sharma
+2025-12-27 16:32:58 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Tanmay Sharma
+2025-12-27 16:32:58 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Logout
+2025-12-27 16:32:58 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with classname: oxd-userdropdown-link
+2025-12-27 16:32:58 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:32:58 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:33:01 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:33:01 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:33:01 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:33:01 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:33:02 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element unable to describe the element
+2025-12-27 16:33:02 [TestNG-tests-3] INFO  Actiondriver - Element is displayed : unable to describe the element
+2025-12-27 16:33:02 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:33:02 [TestNG-tests-3] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:33:04 [TestNG-tests-3] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:33:04 [TestNG-tests-3] TRACE BaseClass - This is a Trace message
+2025-12-27 16:33:04 [TestNG-tests-3] DEBUG BaseClass - This is a debug message
+2025-12-27 16:33:04 [TestNG-tests-3] WARN  BaseClass - This is a warm message
+2025-12-27 16:33:04 [TestNG-tests-3] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:33:04 [TestNG-tests-3] INFO  BaseClass - ActionDriver initlialized for thread: 23
+2025-12-27 16:33:04 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:33:04 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:33:04 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:33:05 [TestNG-tests-3] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:33:05 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:33:05 [TestNG-tests-3] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:33:05 [TestNG-tests-3] INFO  Actiondriver - Applied the border with color greento element unable to describe the element
+2025-12-27 16:33:05 [TestNG-tests-3] INFO  Actiondriver - Element is displayed : unable to describe the element
+2025-12-27 16:33:06 [TestNG-tests-3] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:35:03 [main] INFO  BaseClass - config.properties file loaded
+2025-12-27 16:35:04 [TestNG-tests-2] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:35:07 [TestNG-tests-2] TRACE BaseClass - This is a Trace message
+2025-12-27 16:35:07 [TestNG-tests-2] DEBUG BaseClass - This is a debug message
+2025-12-27 16:35:07 [TestNG-tests-2] WARN  BaseClass - This is a warm message
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  BaseClass - ActionDriver initlialized for thread: 21
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:35:07 [TestNG-tests-2] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:35:08 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:35:08 [TestNG-tests-2] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:35:09 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:35:19 [TestNG-tests-2] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:35:29 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color redto element Element with placeholder: Type for hints...
+2025-12-27 16:35:29 [TestNG-tests-2] INFO  Actiondriver - Unable to enter text  : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3aca233f88b15e65d85259e826190947, clearElement {id=f.C9D52E08785D503A6B76445523BD29B7.d.AA3C39A6D368D749BD799C0A662194E4.e.44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (3aca233f88b15e65d85259e826190947)] -> xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input]
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:35:29 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:35:39 [TestNG-tests-2] INFO  Actiondriver - element is not clickable : Expected condition failed: waiting for element to be clickable: By.xpath: //button[text()=' Search '] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color redto element Element with classname: oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  Actiondriver - Unable to click element : element not interactable
+  (Session info: chrome=138.0.7204.183)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3aca233f88b15e65d85259e826190947, clickElement {id=f.C9D52E08785D503A6B76445523BD29B7.d.AA3C39A6D368D749BD799C0A662194E4.e.61}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (3aca233f88b15e65d85259e826190947)] -> xpath: //button[text()=' Search ']]
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  Actiondriver - Element is visible : Element with text: Id
+002
+First (& Middle) Name
+Yashi
+Last Name
+Dubey
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  DBConnection - starting DB Connection...
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  DBConnection - DB Connection Successful
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  DBConnection -  Executing query :- SELECT emp_firstname, emp_middle_name,emp_lastname FROM `hs_hr_employee` WHERE employee_id=2
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  DBConnection - Query executed successfully
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  DBConnection - Employee data fetched
+2025-12-27 16:35:50 [TestNG-tests-2] INFO  DBConnection - Yashi,,Dubey
+2025-12-27 16:36:00 [TestNG-tests-2] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:36:10 [TestNG-tests-2] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3aca233f88b15e65d85259e826190947, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[3], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:36:20 [TestNG-tests-2] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:36:30 [TestNG-tests-2] INFO  Actiondriver - Unable to compare text → no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4]"}
+  (Session info: chrome=138.0.7204.183)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [3aca233f88b15e65d85259e826190947, findElement {value=//div[contains(@class,'oxd-table-row--with-border') and .//div[contains(normalize-space(),'Yashi')]]/div[4], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:46779}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3aca233f88b15e65d85259e826190947
+2025-12-27 16:36:30 [TestNG-tests-2] INFO  BaseClass - WebDriver instance is closed.
+2025-12-27 16:36:30 [TestNG-tests-2] INFO  BaseClass - RemoteWebDriver instance created for Grid in headless mode
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  BaseClass - WebDriver Initialized and Browser Maximized
+2025-12-27 16:36:33 [TestNG-tests-2] TRACE BaseClass - This is a Trace message
+2025-12-27 16:36:33 [TestNG-tests-2] DEBUG BaseClass - This is a debug message
+2025-12-27 16:36:33 [TestNG-tests-2] WARN  BaseClass - This is a warm message
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Webdriver instance is created
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  BaseClass - ActionDriver initlialized for thread: 21
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with name: username
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Value entered : Element with name: username TanmayAdmin
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with name: password
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Value entered : Element with name: password Kashyap@123
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with text: Login
+2025-12-27 16:36:33 [TestNG-tests-2] INFO  Actiondriver - Clicked an element --> Element with text: Login
+2025-12-27 16:36:34 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with text: PIM
+2025-12-27 16:36:34 [TestNG-tests-2] INFO  Actiondriver - Clicked an element --> Element with text: PIM
+2025-12-27 16:36:35 [TestNG-tests-2] INFO  Actiondriver - Applied the border with color greento element Element with placeholder: Type for hints...
+2025-12-27 16:36:45 [TestNG-tests-2] INFO  Actiondriver - element is not visible : Expected condition failed: waiting for visibility of element located by By.xpath: //label[text()='Employee Name']/parent::div/following-sibling::div/div/div/input (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.1', java.version: '17.0.17'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.183, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.3:4444/sessio..., se:cdpVersion: 138.0.7204.183, se:containerName: fd217a0407be, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.18.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 30ca028545066cf76ea8cf7f5ef6b4b8
