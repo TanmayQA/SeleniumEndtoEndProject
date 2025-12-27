@@ -4,9 +4,7 @@ services:
     image: selenium/standalone-chromium:4.34.0
     container_name: selenium-chrome
     shm_size: 2gb
-    ports:
-      - "4444:4444"
-      - "7900:7900"   # noVNC
+
 
 
 #  firefox:
