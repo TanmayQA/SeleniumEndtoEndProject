@@ -2,54 +2,44 @@ pipeline {
     agent any
 
     tools {
-        maven 'maven_lib'   // must match Jenkins Global Tool name
+        maven 'maven_lib'
     }
 
-
-        environment {
-                COMPOSE_PATH = "${WORKSPACE}/docker" // Adjust if compose file is elsewhere
-                SELENIUM_GRID = "true"
-            }
+    environment {
+        COMPOSE_PATH = "${WORKSPACE}/docker"
+        SELENIUM_GRID = "true"
+    }
 
     stages {
-     stage('Start Selenium Grid via Docker Compose') {
-                steps {
-                    script {
-                        echo "Starting Selenium Grid with Docker Compose..."
-                        bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml up -d"
-                        echo "Waiting for Selenium Grid to be ready..."
-                        sleep 30 // Add a wait if needed
-                    }
-                }
-            }
 
-        stage('Checkout') {
+        stage('Checkout SCM') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/TanmayQA/SeleniumEndtoEndProject.git'
+                checkout scm
+            }
+        }
+
+        stage('Start Selenium Grid') {
+            steps {
+                echo "Starting Selenium Grid with Docker Compose..."
+                sh """
+                    docker compose -f ${COMPOSE_PATH}/docker-compose.yml up -d
+                """
+                echo "Waiting for Grid to stabilize..."
+                sleep 30
             }
         }
 
         stage('Build') {
             steps {
-                sh 'mvn clean install -DseleniumGrid=true'
+                sh 'mvn clean compile -DseleniumGrid=true'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'mvn clean install -DseleniumGrid=true'
+                sh 'mvn test -DseleniumGrid=true'
             }
         }
-        stage('Stop Selenium Grid') {
-                    steps {
-                        script {
-                            echo "Stopping Selenium Grid..."
-                            bat "docker compose -f ${COMPOSE_PATH}\\docker-compose.yml down"
-                        }
-                    }
-                }
-
 
         stage('Reports') {
             steps {
@@ -68,6 +58,10 @@ pipeline {
     post {
 
         always {
+            echo "Stopping Selenium Grid..."
+            sh """
+                docker compose -f ${COMPOSE_PATH}/docker-compose.yml down
+            """
             archiveArtifacts artifacts: 'target/ExtentReport/*.html', fingerprint: true
             junit 'target/surefire-reports/*.xml'
         }
@@ -81,27 +75,11 @@ pipeline {
                 <html>
                 <body>
                     <p>Hello Team,</p>
-
-                    <p>The latest Jenkins build has completed successfully.</p>
-
-                    <p><b>Project Name:</b> ${env.JOB_NAME}</p>
-                    <p><b>Build Number:</b> #${env.BUILD_NUMBER}</p>
-                    <p><b>Build Status:</b>
-                        <span style="color:green;"><b>SUCCESS</b></span>
-                    </p>
-                    <p><b>Build URL:</b>
-                        <a href="${env.BUILD_URL}">${env.BUILD_URL}</a>
-                    </p>
-
-                    <p><b>Extent Report:</b>
-                        <a href="${env.BUILD_URL}HTML_20Extent_20Spark_20Report/">
-                            Click here
-                        </a>
-                    </p>
-
-                    <br/>
-                    <p>Best regards,<br/>
-                    Automation Team</p>
+                    <p>The Jenkins build completed <b style="color:green;">SUCCESSFULLY</b>.</p>
+                    <p><b>Job:</b> ${env.JOB_NAME}</p>
+                    <p><b>Build:</b> #${env.BUILD_NUMBER}</p>
+                    <p><a href="${env.BUILD_URL}">View Build</a></p>
+                    <p><a href="${env.BUILD_URL}HTML_20Extent_20Spark_20Report/">View Extent Report</a></p>
                 </body>
                 </html>
                 """,
@@ -118,31 +96,10 @@ pipeline {
                 <html>
                 <body>
                     <p>Hello Team,</p>
-
-                    <p>The latest Jenkins build has
-                        <b style="color:red;">FAILED</b>.
-                    </p>
-
-                    <p><b>Project Name:</b> ${env.JOB_NAME}</p>
-                    <p><b>Build Number:</b> #${env.BUILD_NUMBER}</p>
-                    <p><b>Build Status:</b>
-                        <span style="color:red;"><b>FAILED</b></span>
-                    </p>
-                    <p><b>Build URL:</b>
-                        <a href="${env.BUILD_URL}">${env.BUILD_URL}</a>
-                    </p>
-
-                    <p><b>Extent Report (if generated):</b>
-                        <a href="${env.BUILD_URL}HTML_20Extent_20Spark_20Report/">
-                            Click here
-                        </a>
-                    </p>
-
-                    <br/>
-                    <p>Please review the logs and report.</p>
-
-                    <p>Regards,<br/>
-                    Automation Team</p>
+                    <p>The Jenkins build has <b style="color:red;">FAILED</b>.</p>
+                    <p><b>Job:</b> ${env.JOB_NAME}</p>
+                    <p><b>Build:</b> #${env.BUILD_NUMBER}</p>
+                    <p><a href="${env.BUILD_URL}">View Build</a></p>
                 </body>
                 </html>
                 """,
