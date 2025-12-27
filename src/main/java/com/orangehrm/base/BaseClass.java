@@ -98,27 +98,33 @@ public class BaseClass {
 
         boolean seleniumGrid = Boolean.parseBoolean(prop.getProperty("seleniumGrid"));
         String gridURL = prop.getProperty("gridURL");
+
         if (seleniumGrid) {
             try {
                 if (browser.equalsIgnoreCase("chrome")) {
+
                     ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+                    options.addArguments(
+                            "--headless=new",
+                            "--no-sandbox",
+                            "--disable-dev-shm-usage",
+                            "--disable-gpu",
+                            "--window-size=1920,1080"
+                    );
+
                     driver.set(new RemoteWebDriver(new URL(gridURL), options));
-                } else if (browser.equalsIgnoreCase("firefox")) {
-                    FirefoxOptions options = new FirefoxOptions();
-                    options.addArguments("-headless");
-                    driver.set(new RemoteWebDriver(new URL(gridURL), options));
-                } else if (browser.equalsIgnoreCase("edge")) {
-                    EdgeOptions options = new EdgeOptions();
-                    options.addArguments("--headless=new", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
-                    driver.set(new RemoteWebDriver(new URL(gridURL), options));
-                } else {
-                    throw new IllegalArgumentException("Browser Not Supported: " + browser);
                 }
-                logger.info("RemoteWebDriver instance created for Grid in headless mode");
+                else {
+                    throw new IllegalArgumentException("Only CHROME is supported in Docker standalone");
+                }
+
+                logger.info("RemoteWebDriver started on Selenium Standalone");
+
             } catch (MalformedURLException e) {
-                throw new RuntimeException("Invalid Grid URL", e);
+                throw new RuntimeException("Invalid Grid URL: " + gridURL, e);
             }
+            return;
+
         } else {
 
             if (browser.equalsIgnoreCase("chrome")) {
