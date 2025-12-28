@@ -105,7 +105,7 @@ public class BaseClass {
 
                     ChromeOptions options = new ChromeOptions();
                     options.addArguments(
-                            "--headless=new",
+                            //"--headless=new",
                             "--no-sandbox",
                             "--disable-dev-shm-usage",
                             "--disable-gpu",
